@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
 
-      - uses: DavidAnson/markdownlint-cli2-action@cdfad95cc96588c74b62ad2d3f2e1772090099ac
+      - uses: DavidAnson/markdownlint-cli2-action@bb4bb94c73936643d73d345b48fead3e96f90a5e
         with:
           globs: |
             "**/*.md"
